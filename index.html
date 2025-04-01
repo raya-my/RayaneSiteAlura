@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meus filmes favoritos</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header {
+            background-color: #051541;
+            color: white;
+            padding: 40px 0;
+            border-radius: 15px;
+        }
+
+        .rounded-circle {
+            border: 3px solid #5a05bb;
+        }
+
+        h1, h2 {
+            color: #2e05a0;
+        }
+
+        .badge {
+            background-color: #0b1f94a2;
+            color: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+        .card {
+            background-color: #333333;
+            border-radius: 15px;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .card-body {
+            background-color: #400557;
+            border-radius: 15px;
+        }
+
+        .btn-primary {
+            background-color: #9e0bac;
+            border-color: #000000;
+        }
+
+        .btn-primary:hover {
+            background-color: #000000;
+            border-color: #ffffff;
+        }
+
+        footer {
+            background-color: #06213a;
+            color: white;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .movie-cover {
+            width: 100%;
+            height: 450px; /* Definição de altura padrão para todas as imagens */
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .movie-cover {
+                height: 250px;
+            }
+        }
+
+        h3 {
+            color: #9b59b6;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="./WhatsApp Image 2025-04-01 at 12.27.06.jpeg" alt="Rayane" class="rounded-circle" width="150" height="150">
+        <p class="lead">Eu sou a Rayane</p>
+        <p>Eu adoro filmes e séries, sempre estou em busca de novas histórias para assistir e me apaixonar.</p>
+        <p>Minhas paixões</p>
+        <div>
+            <p class="badge">Filmes</p>
+            <p class="badge">Séries</p>
+        </div>
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus filmes favoritos</h2>
+        <div class="row">
+            <!-- Filme 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Spirited Away (A Viagem de Chihiro)</h5>
+                        <img src="./chihiro.jpg" alt="A Viagem de Chihiro" class="movie-cover">
+                        <a href="https://www.youtube.com/watch?v=ByXuk9QqQkk" target="_blank" class="btn btn-primary mt-3">Ver Trailer</a>
+                        <p><strong>Sinopse:</strong> Quando a jovem Chihiro e seus pais se perdem e encontram uma cidade misteriosa, ela acaba sendo aprisionada em um mundo mágico cheio de deuses, espíritos e criaturas fantásticas. Para resgatar seus pais e escapar, Chihiro precisa trabalhar na casa de banhos de uma bruxa chamada Yubaba.</p>
+                        <p><strong>Opinião:</strong> "A Viagem de Chihiro" é uma obra-prima do Studio Ghibli. Cada cena é deslumbrante, e a história é repleta de lições sobre coragem, amizade e maturidade. O filme é uma experiência visual e emocional inesquecível, com personagens que tocam o coração do espectador.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Coringa (2018)</h5>
+                        <img src="./images.jpg" alt="Coringa" class="movie-cover">
+                        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank" class="btn btn-primary mt-3">Ver Trailer</a>
+                        <p><strong>Sinopse:</strong> Arthur Fleck, um comediante fracassado, sofre com uma vida repleta de rejeições e violência, o que o leva a se transformar no vilão Coringa. A história explora a luta de Fleck com sua sanidade e o impacto da sociedade em sua descida ao caos.</p>
+                        <p><strong>Opinião:</strong> "Coringa" é um estudo psicológico profundo de um homem quebrado pela sociedade. Joaquin Phoenix entrega uma performance excepcional, capaz de capturar toda a dor e raiva de seu personagem. O filme é sombrio e perturbador, mas também fascinante e essencial para quem gosta de um drama psicológico intenso.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">No Limite do Amanhã (Edge of Tomorrow)</h5>
+                        <img src="./no limite do amanha.jpg" alt="No Limite do Amanhã" class="movie-cover">
+                        <a href="https://www.youtube.com/watch?v=vw61gCe2oqI" target="_blank" class="btn btn-primary mt-3">Ver Trailer</a>
+                        <p><strong>Sinopse:</strong> O soldado Cage é forçado a reviver o mesmo dia de batalha contra uma invasão alienígena, morrendo a cada repetição. Com a ajuda de uma combatente experiente, ele deve encontrar uma maneira de usar esse ciclo temporal a seu favor para salvar a humanidade.</p>
+                        <p><strong>Opinião:</strong> "No Limite do Amanhã" é uma mistura envolvente de ficção científica e ação, com uma narrativa criativa e dinâmica. Tom Cruise e Emily Blunt têm uma química impressionante, e o conceito de repetição de tempo é explorado de maneira única e divertida.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filme 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">O Iluminado (The Shining)</h5>
+                        <img src="./O Iluminado (The Shining).jpg" alt="O Iluminado" class="movie-cover">
+                        <a href="https://www.youtube.com/watch?v=5Cb3ik6zP2I" target="_blank" class="btn btn-primary mt-3">Ver Trailer</a>
+                        <p><strong>Sinopse:</strong> Jack Torrance, um escritor em busca de recuperação, aceita um emprego como zelador de um hotel isolado nas montanhas. Durante o inverno, ele, sua esposa Wendy e seu filho Danny começam a ser aterrorizados pelas forças sobrenaturais do hotel.</p>
+                        <p><strong>Opinião:</strong> "O Iluminado" é um dos maiores clássicos do terror psicológico, com uma direção impecável de Stanley Kubrick e uma performance memorável de Jack Nicholson. O clima de tensão crescente e a exploração da loucura humana fazem deste filme uma experiência única.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>Minhas Séries Favoritas</h3>
+        <div class="row">
+            <!-- Série 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Stranger Things</h5>
+                        <img src="./stranger things.jpg" alt="Stranger Things" class="movie-cover">
+                        <p><strong>Sinopse:</strong> Um grupo de crianças se une para investigar o desaparecimento de um amigo, revelando um mundo paralelo e uma série de mistérios sobrenaturais. A série mistura mistério, suspense e elementos de ficção científica dos anos 80.</p>
+                        <p><strong>Opinião:</strong> "Stranger Things" é uma das séries mais cativantes da década. Com personagens memoráveis, uma trama envolvente e uma ótima nostalgia dos anos 80, ela é um prato cheio para quem gosta de mistério e ficção científica.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Série 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Breaking Bad</h5>
+                        <img src="./breking bad.jpg" alt="Breaking Bad" class="movie-cover">
+                        <p><strong>Sinopse:</strong> Walter White, um professor de química que se torna traficante de metanfetamina após ser diagnosticado com câncer terminal, começa uma jornada moralmente questionável, tentando garantir o futuro financeiro de sua família.</p>
+                        <p><strong>Opinião:</strong> "Breaking Bad" é uma obra-prima da televisão, com uma narrativa intensa e personagens complexos. A transformação de Walter White é uma das mais impressionantes da TV, e a série mantém o espectador preso do início ao fim.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Série 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">The Crown</h5>
+                        <img src="./The-Crown-Poster-S2.jpg" alt="The Crown" class="movie-cover">
+                        <p><strong>Sinopse:</strong> A série acompanha a vida da Rainha Elizabeth II desde sua ascensão ao trono até os eventos históricos que marcaram o século 20. Uma reflexão sobre poder, responsabilidade e os desafios pessoais de uma monarca.</p>
+                        <p><strong>Opinião:</strong> "The Crown" é uma série fascinante que mistura drama e história, com atuações de tirar o fôlego. A série mergulha na complexidade da vida real da monarquia britânica e traz à tona questões políticas e pessoais profundas.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Série 4 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">The Witcher</h5>
+                        <img src="./the witcher.jpg" alt="The Witcher" class="movie-cover">
+                        <p><strong>Sinopse:</strong> Geralt de Rívia, um caçador de monstros, se vê em meio a intrigas políticas e mágicas enquanto luta para proteger os inocentes e encontrar o seu lugar em um mundo violento e cruel.</p>
+                        <p><strong>Opinião:</strong> "The Witcher" é uma série envolvente com uma trama cheia de ação e mistério, baseada nos livros de Andrzej Sapkowski. A série tem uma ótima direção de arte e um elenco talentoso, além de um mundo cheio de fantasia e mitologia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container py-5">
+        <p class="my-5 text-center">© Produzido por Rayane e Kelly</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
